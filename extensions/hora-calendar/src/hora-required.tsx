@@ -16,9 +16,9 @@ export function HoraRequired({ reason }: { reason: "missing" | "outdated" }) {
     reason === "outdated"
       ? `# Update hora Calendar
 
-Your copy of hora Calendar is older than 1.1.5 and cannot be controlled from Raycast yet.
+Your copy of hora Calendar is too old to be controlled from Raycast. You need hora 1.1.5 or newer from Direct or Setapp, or 1.1.6 or newer from the Mac App Store.
 
-Install the latest Direct release from [horacal.app](https://horacal.app/download/direct/) or update your Setapp copy. The Mac App Store update is still pending.`
+Update hora through the Mac App Store or Setapp, or install the latest Direct release from [horacal.app](https://horacal.app/download/direct/).`
       : `# hora Calendar for Mac required
 
 **Native Google Calendar for Mac.**
@@ -27,7 +27,7 @@ Create and join meetings without opening your browser.
 
 Your calendar, your tasks, your meeting rooms and your invitations in one native app — no Electron, no web views. This extension is how you reach it from Raycast.
 
-**Recommended: Direct from hora.** Download it from [horacal.app](https://horacal.app/download/direct/) or install it with Homebrew. Setapp also has the Raycast-compatible version. The Mac App Store update is still pending.`;
+**Recommended: Direct from hora.** Download it from [horacal.app](https://horacal.app/download/direct/) or install it with Homebrew. The Mac App Store and Setapp versions work too.`;
 
   return (
     <Detail

@@ -22,20 +22,20 @@ Put an event in your calendar by describing it, add a task, or jump into your ne
 
 This extension is a front door, not the product. It drives [hora Calendar](https://horacal.app) — a native macOS client for Google Calendar with no Electron and no web views — which holds your calendars, your Google Tasks, your meeting rooms and your invitations.
 
-**Recommended: Direct from hora.** Download the latest Raycast-compatible version from [horacal.app](https://horacal.app/download/direct/) or install it with Homebrew:
+**Recommended: Direct from hora.** Download the latest version from [horacal.app](https://horacal.app/download/direct/) or install it with Homebrew:
 
 ```bash
 brew install --cask szamowski-dev/tap/hora
 ```
 
-**Setapp** also has a Raycast-compatible build. The **Mac App Store update is pending**, so its current version does not support this extension yet.
+The [**Mac App Store**](https://apps.apple.com/app/hora-calendar/id6761409895) and **Setapp** versions work too: the extension supports every hora build.
 
-The extension detects the supported Direct or Setapp build automatically; there is nothing to configure. You need **hora 1.1.5 or newer** — earlier versions cannot be scripted, and the extension will tell you how to update.
+The extension detects whichever build you have automatically; there is nothing to configure. You need **hora 1.1.5 or newer** from Direct or Setapp, or **1.1.6 or newer** from the Mac App Store — earlier versions cannot be scripted, and the extension will tell you how to update.
 
 ## Installing
 
 1. Install the extension from the Raycast Store.
-2. Install the recommended [Direct version](https://horacal.app/download/direct/) — or use Homebrew with `brew install --cask szamowski-dev/tap/hora`. Setapp works too; the Mac App Store update is still pending.
+2. Install hora from the [Mac App Store](https://apps.apple.com/app/hora-calendar/id6761409895), the [Direct version](https://horacal.app/download/direct/) (or Homebrew: `brew install --cask szamowski-dev/tap/hora`) or Setapp — all three work.
 3. Sign in to your Google account.
 4. Run any command. macOS asks once whether Raycast may control hora — say yes.
 
